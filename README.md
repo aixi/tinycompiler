@@ -1,4 +1,3 @@
-This is the README.DOS file included in the loucomp.zip file.
 The other files in the distribution are the source code files 
 in standard C for the TINY compiler and Tiny Machine simulator
 as described in the text:
@@ -32,8 +31,8 @@ The lex subdirectory contains the single file tiny.l
 as described in the text on pages 90-91, which can be used to build
 a lex/flex version of the scanner.
 
-The yacc subdirectory contains the two files tiny.y and globals.h 
-as described on pages 243-245 of the text, which can be used 
+The yacc subdirectory contains the two files tiny.y and globals.h
+as described on pages 243-245 of the text, which can be used
 to build a Yacc/Bison version of the parser. Note that, due to
 the considerable variation among Yacc/Bison versions, these files
 will probably need some minor editing in order to get them to
@@ -45,4 +44,3 @@ Any Ansi C compiler should be usable to compile this code, but there is
 no guarantee that your favorite compiler will work. Nevertheless, if you
 have a problem, I would appreciate hearing about it, and I will respond if I
 can find a solution.
-
