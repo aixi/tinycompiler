@@ -54,8 +54,8 @@ typedef enum {Void, Integer, Boolean} ExpType;
 
 typedef struct treeNode
 {
-    struct treeNode * child[MAXCHILDREN];
-    struct treeNode * sibling;
+    struct treeNode *child[MAXCHILDREN];
+    struct treeNode *sibling;
     int lineno;
     NodeKind nodekind;
     union
